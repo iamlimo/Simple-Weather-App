@@ -1,0 +1,36 @@
+body{
+ background: #dd5e89; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #dd5e89, #f7bb97); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #dd5e89, #f7bb97); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#weatherApp{
+    width: 350px;
+    height: 430px;
+    background: #F5F5F5;
+    display: table;
+    margin: 0 auto;
+    margin-top: 100px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+#temp > h2:hover{
+    cursor: pointer;
+}
+
+#footer{
+    color: #F5F5F5;
+    text-align: center;
+    font-family: 'Barrio', cursive;
+}
+
+#tempApp{
+  font-size: 18px;
+}
+
+img {
+  width: 60px;
+  margin-bottom: 20px;
+}
